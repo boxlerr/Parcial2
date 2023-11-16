@@ -22,7 +22,7 @@ public class Libro {
         return disponible;
     }
 
-    // Métodos para cambiar el estado de disponibilidad
+    // para cambiar la disponibilidad
     public void prestarLibro() {
         if (disponible) {
             disponible = false;

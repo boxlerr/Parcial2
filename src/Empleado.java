@@ -32,7 +32,7 @@ public class Empleado {
         this.dni = dni;
     }
 
-    public boolean Login(String us, String pass) {
+    public boolean Login(String us, String pass) {  //iniciar sesion
         if (usuario.equals(us) && contrasena.equals(pass)) {
             System.out.println("Inicio de sesión exitoso.");
             return true;

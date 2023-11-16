@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Login extends Empleado{
+public class Login extends Empleado{  //fue lo unico que se me ocurrio para implementar herencia :((((((
 		
 		private String caja;
 
@@ -17,7 +17,7 @@ public class Login extends Empleado{
 	        this.caja = caja;
 	    }
 
-	    public boolean Logear(String us, String pass) {
+	    public boolean Logear(String us, String pass) {  //verifica que el login este bien admin admin123
 	        return "admin".equals(us) && "admin123".equals(pass);
 	    }
 	    
